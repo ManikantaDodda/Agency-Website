@@ -24,12 +24,12 @@ export const MenuLinks = [
   {
     id: 4,
     name: "Testimonials",
-    link: "/#projects",
+    link: "/#testimonials",
   },
   {
     id: 5,
     name: "Team",
-    link: "/#projects",
+    link: "/#ourteam",
   },
   {
     id: 6,

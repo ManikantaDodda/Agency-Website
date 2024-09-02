@@ -39,7 +39,22 @@ const Testimonial = () => {
   return (
     <>
       <div className="py-10">
+        <span id="testimonials"></span>
         <div className="container">
+        <div className="pb-12 text-center space-y-3">
+            <h1
+              data-aos="fade-up"
+              className="text-3xl font-semibold sm:text-3xl text-violet-950 dark:text-primary"
+            >
+              Testimonials
+            </h1>
+            <p
+              data-aos="fade-up"
+              className="text-gray-600 dark:text-gray-400 text-sm"
+            >
+              What Clients says about our work.
+            </p>
+          </div>
           {/* testimonial section */}
           <div
             data-aos="fade-up"

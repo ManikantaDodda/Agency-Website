@@ -17,6 +17,7 @@ const logos = [
 const Brands = () => {
   return (
     <div className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white py-14">
+      <span id="brands"></span>
       <div className="container mx-auto px-4"  data-aos="fade-up">
         {/* Title Section */}
         <div className="text-center mb-10" >

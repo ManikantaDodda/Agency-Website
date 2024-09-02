@@ -43,6 +43,7 @@ const Team = () => {
 
   return (
     <section className="agency bg-top py-12">
+      <span id="ourteam"></span>
       <div className="container mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-semibold mb-2">Meet Our Team</h2>
