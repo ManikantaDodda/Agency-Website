@@ -37,7 +37,7 @@ const BlogsData = [
 const BlogsComp = () => {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-gray-900 dark:text-white py-10 pb-14">
+      <div className="bg-white-100 dark:bg-gray-900 dark:text-white py-10 pb-14">
         <section data-aos="fade-up" className="container ">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-semibold mb-2">Our Blogs</h2>

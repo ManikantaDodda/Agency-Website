@@ -42,7 +42,7 @@ const Team = () => {
   ];
 
   return (
-    <section className="agency bg-top py-12">
+    <section className="bg-gray-100 dark:bg-gray-900 dark:text-white py-10 pb-14">
       <span id="ourteam"></span>
       <div className="container mx-auto">
         <div className="text-center mb-8">

@@ -33,7 +33,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden" id="content-webpage-id">
     <Hero />
     <Services />
     <Testimonial />

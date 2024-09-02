@@ -8,7 +8,7 @@ const BlogCard = ({ image, title, description }) => {
         <div className="overflow-hidden">
           <img
             src={image}
-            alt="No image"
+            alt="photo"
             className="mx-auto h-[420px] w-full object-cover group-hover:scale-105 duration-300"
           />
         </div>
