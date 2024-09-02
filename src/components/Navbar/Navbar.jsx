@@ -57,7 +57,7 @@ const Navbar = () => {
           >
             <img src={Logo} alt="Logo" className="w-5" />
             <span className="text-2xl sm:text-3xl font-semibold">
-              Digital agency
+            Qualtr agency
             </span>
           </a>
           {/* Desktop view Navigation */}
