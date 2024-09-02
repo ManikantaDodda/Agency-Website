@@ -57,7 +57,7 @@ const Pricing = () => {
     <>
     <span id="pricing"></span>
     <div className="p-4 mx-auto w-full pt-20 md:pt-32 relative z-10" >
-      <div className="flex flex-col items-center justify-center" >
+      <div className="flex flex-col items-center justify-center"  data-aos="fade-up" >
         {/* Title */}
         <div className="text-5xl pb-10 md:pb-20 text-center ">
           Simple Pricing <br /> Choose your plan

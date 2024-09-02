@@ -44,7 +44,7 @@ const Team = () => {
   return (
     <section className="bg-gray-100 dark:bg-gray-900 dark:text-white py-10 pb-14">
       <span id="ourteam"></span>
-      <div className="container mx-auto">
+      <div className="container mx-auto"  data-aos="fade-up">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-semibold mb-2">Meet Our Team</h2>
           <p className="text-lg text-gray-600">A team of smart & passionate creatives</p>
