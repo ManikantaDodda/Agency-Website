@@ -1,6 +1,5 @@
 import React from "react";
 import { PiCheckCircleFill } from "react-icons/pi";
-
 const plans = [
   {
     index: 0,
@@ -76,11 +75,6 @@ const Pricing = () => {
                 <div className="text-4xl font-medium mb-4 text-gray-800 dark:text-white">
                   {plan.name}
                 </div>
-                {plan.feature === "Contact Us" && (
-                  <div className="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-full inline-block">
-                    Contact Us
-                  </div>
-                )}
                 <div className="text-3xl pt-6 text-gray-700 dark:text-white">
                   {plan.price}
                 </div>

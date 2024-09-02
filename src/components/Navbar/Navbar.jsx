@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/Vector.svg";
 import DarkMode from "./DarkMode";
-
+import { Link } from "react-router-dom";
 export const MenuLinks = [
   {
     id: 1,
@@ -73,7 +73,7 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <button className="primary-btn">Get in Touch</button>
+              <button className="primary-btn"><Link to="/contact">Get in Touch</Link></button>
               <DarkMode />
             </ul>
           </nav>
