@@ -3,7 +3,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 import { MenuLinks } from "./Navbar";
 
-const ResponsiveMenu = ({ showMenu }) => {
+const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
   console.log("showMenu", showMenu);
   return (
     <div
@@ -12,6 +12,8 @@ const ResponsiveMenu = ({ showMenu }) => {
       } fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-white dark:bg-gray-900 dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 md:hidden rounded-r-xl shadow-md`}
     >
       <div className="card">
+      <div onClick={() => setShowMenu(!showMenu)}
+          className="absolute top-4 right-4 cursor-pointer text-xl font-bold"> X </div>
         <div className="flex items-center justify-start gap-3">
           <FaUserCircle size={50} />
           <div>
